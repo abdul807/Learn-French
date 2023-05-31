@@ -21,7 +21,7 @@ else:
 
 
 
-
+# This function flips the old card and bring out the new cards
 
 def next_card():
     global current_card,flip_time
@@ -85,7 +85,7 @@ right_image = PhotoImage(file='images/right.png')
 right_button = Button(image= right_image,highlightthickness=0,command= is_known)
 right_button.grid(row=1,column=1)
 
-
+# function calls
 
 next_card()
 
